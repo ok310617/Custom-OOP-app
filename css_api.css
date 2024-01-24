@@ -1,0 +1,55 @@
+.in_row{
+    text-align: center;
+    display: flex;
+}
+aside{
+    width: 18%;
+    
+}
+header{
+    width: 64%;
+    height: auto;
+}
+.main_part{
+    width: 64%;
+    background-color: black;
+    height: 600px;
+}
+.cinema_screen{
+    width: 55%;
+    height: 2rem;
+    margin: 0 auto;
+    background-color: blue;
+}
+body{
+    background-image: linear-gradient(lightgrey, black);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 100%;
+}
+.seats{
+    background-color: gray;
+    height: 475px;
+    width: 60%;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+
+td{
+    padding: 10px;
+    width: 30px;
+    background-color: lightblue;
+    color: white; 
+    border: 2px dashed lightblue;
+}
+table{
+    margin: 0 auto;
+    margin-top: 10px;
+}
+th{
+    padding: 10px;
+    width: 30px;
+    background-color: red;
+    color: black; 
+    border: 2px solid red;
+}
